@@ -1,0 +1,51 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go-specific
+*.test
+*.out
+
+# Vendor directory (comment this if you are using vendoring)
+vendor/
+
+# Dependency directories and files
+Gopkg.lock
+Gopkg.toml
+go.sum
+go.work
+go.work.sum
+
+# IDE and editor-specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and debug files
+*.log
+*.tmp
+*.temp
+
+# Build and cache directories
+bin/
+build/
+dist/
+out/
+*.a
+*.o
+
+# Go cache directory
+/.cache/
+/.cache/
+
+# Miscellaneous
+*.bak
+*.backup
+*.old
+
+# Operating system files
+.DS_Store
+Thumbs.db
