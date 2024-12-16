@@ -13,4 +13,10 @@ func main() {
 	input := []int{1, 2, 3, 4}
 	sumOut := easy.RunningSum(input)
 	fmt.Println(sumOut)
+	//fizzbuzz
+	fizzBuzzOut := easy.FizzBuzz(15)
+	fmt.Println(fizzBuzzOut)
+	//number of step
+	numberOfStep := easy.NumberOfSteps(123)
+	fmt.Println(numberOfStep)
 }
